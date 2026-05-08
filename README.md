@@ -98,4 +98,4 @@ You should see the OpenAPI/Swagger UI with all endpoints listed and ready to try
 
 ---
 
-If you’re looking at this as part of an application and want to know how I’d extend it (e.g. auth, observability, or more formal ML), I’ve added some notes in the issues section.
+If you’d like to discuss how I’d extend this (auth, observability, more formal ML, etc.), I’m happy to walk through my ideas.
