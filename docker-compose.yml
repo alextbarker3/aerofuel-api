@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    container_name: aerofuel-api
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:///./aerofuel.db
+      ENVIRONMENT: docker
+      AEROFUEL_API_KEY: ""

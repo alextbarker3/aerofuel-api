@@ -1,0 +1,9 @@
+{
+  "aircraft_profile": "generic_transport_aircraft",
+  "actual_burn_kg": 1170,
+  "distance_nm": 65,
+  "payload_kg": 800,
+  "taxi_minutes": 18,
+  "wind_component_knots": -10,
+  "temperature_c": 14
+}

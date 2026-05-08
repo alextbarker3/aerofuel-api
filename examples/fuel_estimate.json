@@ -1,0 +1,10 @@
+{
+  "aircraft_profile": "generic_transport_aircraft",
+  "origin": "EGTK",
+  "destination": "EGSS",
+  "distance_nm": 65,
+  "payload_kg": 800,
+  "taxi_minutes": 12,
+  "wind_component_knots": -10,
+  "temperature_c": 14
+}

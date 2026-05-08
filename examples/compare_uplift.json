@@ -1,0 +1,7 @@
+{
+  "origin": "EGTK",
+  "destination": "EGSS",
+  "fuel_type": "JET_A1",
+  "extra_uplift_litres": 800,
+  "extra_burn_cost": 35
+}

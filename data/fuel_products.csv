@@ -1,0 +1,4 @@
+code,name,density_kg_per_litre,emissions_factor_kg_co2_per_kg
+JET_A1,Jet A-1,0.8,3.16
+SAF_BLEND,Synthetic SAF Blend,0.79,2.25
+AVGAS_100LL,Avgas 100LL,0.72,3.05

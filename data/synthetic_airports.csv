@@ -1,0 +1,15 @@
+icao_code,iata_code,name,country,latitude,longitude,timezone
+EGTK,OXF,London Oxford Airport,United Kingdom,51.8369,-1.32,Europe/London
+EGSS,STN,London Stansted Airport,United Kingdom,51.885,0.235,Europe/London
+EGLL,LHR,London Heathrow Airport,United Kingdom,51.47,-0.4543,Europe/London
+EGGW,LTN,London Luton Airport,United Kingdom,51.8747,-0.3683,Europe/London
+EGNX,EMA,East Midlands Airport,United Kingdom,52.8311,-1.3281,Europe/London
+EGPH,EDI,Edinburgh Airport,United Kingdom,55.95,-3.3725,Europe/London
+EGPF,GLA,Glasgow Airport,United Kingdom,55.8719,-4.4331,Europe/London
+EGNM,LBA,Leeds Bradford Airport,United Kingdom,53.8659,-1.6606,Europe/London
+LFPG,CDG,Paris Charles de Gaulle,France,49.0097,2.5479,Europe/Paris
+EHAM,AMS,Amsterdam Schiphol,Netherlands,52.3105,4.7683,Europe/Amsterdam
+EDDF,FRA,Frankfurt Airport,Germany,50.0379,8.5622,Europe/Berlin
+LEMD,MAD,Adolfo Suárez Madrid-Barajas,Spain,40.4983,-3.5676,Europe/Madrid
+LEBL,BCN,Barcelona-El Prat,Spain,41.2974,2.0833,Europe/Madrid
+LLBG,TLV,Ben Gurion Airport,Israel,32.0114,34.8867,Asia/Jerusalem
