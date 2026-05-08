@@ -6,6 +6,17 @@ It exposes endpoints for fuel prices, route and cost estimates, uplift compariso
 This repo ships with synthetic data only.  
 It is not connected to RAF, MOD, STARS, certified flight‑planning tools, or any live operational systems, and it is not valid for real‑world flight planning.
 
+## Why I built this (portfolio context)
+
+This project is aimed at showcasing how I would approach a production‑style API in a defence / aviation context:
+
+- Clear contracts and typed models
+- External integration over HTTPS with proper isolation
+- Basic ML used in a constrained, auditable way
+- Tests, Docker packaging, and a structure that could grow into a larger service
+
+If you’re reviewing this as a prospective employer, the code is meant to be read: comments are sparse but intentional, and the modules are split to make the design choices obvious.
+
 ## What it can do
 
 - Look up airport fuel prices from a local cache
@@ -72,19 +83,19 @@ You should see the OpenAPI/Swagger UI with all endpoints listed and ready to try
 
 ## Main endpoints
 
-| Capability              | Endpoint                                   |
-|-------------------------|--------------------------------------------|
-| Health                  | `GET /health`                              |
-| Integration status      | `GET /integrations/fuel-data/status`       |
-| List airports           | `GET /airports`                            |
-| Airport fuel prices     | `GET /airports/{icao}/fuel-prices`         |
-| Refresh live fuel prices| `POST /airports/{icao}/fuel-prices/refresh`|
-| Route fuel estimate     | `POST /fuel/estimate`                      |
-| Cost estimate           | `POST /fuel/cost-estimate`                 |
-| Uplift comparison       | `POST /fuel/compare-uplift`                |
-| Fuel burn prediction    | `POST /ml/predict-fuel-burn`               |
-| Anomaly check           | `POST /ml/check-fuel-anomaly`              |
+| Capability               | Endpoint                                     |
+|--------------------------|----------------------------------------------|
+| Health                   | `GET /health`                                |
+| Integration status       | `GET /integrations/fuel-data/status`         |
+| List airports            | `GET /airports`                              |
+| Airport fuel prices      | `GET /airports/{icao}/fuel-prices`          |
+| Refresh live fuel prices | `POST /airports/{icao}/fuel-prices/refresh` |
+| Route fuel estimate      | `POST /fuel/estimate`                        |
+| Cost estimate            | `POST /fuel/cost-estimate`                   |
+| Uplift comparison        | `POST /fuel/compare-uplift`                  |
+| Fuel burn prediction     | `POST /ml/predict-fuel-burn`                 |
+| Anomaly check            | `POST /ml/check-fuel-anomaly`                |
 
 ---
 
-If you’re using this for experiments, feel free to raise issues or open PRs with ideas for new endpoints, models, or checks.
+If you’re looking at this as part of an application and want to know how I’d extend it (e.g. auth, observability, or more formal ML), I’ve added some notes in the issues section.
