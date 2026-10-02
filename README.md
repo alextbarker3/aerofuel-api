@@ -62,7 +62,7 @@ The live‑fuel path is deliberately narrow: outbound HTTPS only to allow‑list
 Clone the repo and set up a virtual environment:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aerofuel-api.git
+git clone https://github.com/alextbarker3/aerofuel-api.git
 cd aerofuel-api
 
 python -m venv .venv
